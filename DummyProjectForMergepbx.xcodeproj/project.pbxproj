@@ -22,6 +22,7 @@
 		060EFCEA18A5AC930031B954 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 060EFCC918A5AC930031B954 /* UIKit.framework */; };
 		060EFCF218A5AC930031B954 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 060EFCF018A5AC930031B954 /* InfoPlist.strings */; };
 		060EFCF418A5AC930031B954 /* DummyProjectForMergepbxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 060EFCF318A5AC930031B954 /* DummyProjectForMergepbxTests.m */; };
+		060EFCFE18A5AEA10031B954 /* 漢字.txt in Resources */ = {isa = PBXBuildFile; fileRef = 060EFCFD18A5AEA10031B954 /* 漢字.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		060EFCEF18A5AC930031B954 /* DummyProjectForMergepbxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DummyProjectForMergepbxTests-Info.plist"; sourceTree = "<group>"; };
 		060EFCF118A5AC930031B954 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		060EFCF318A5AC930031B954 /* DummyProjectForMergepbxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DummyProjectForMergepbxTests.m; sourceTree = "<group>"; };
+		060EFCFD18A5AEA10031B954 /* 漢字.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "漢字.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		060EFCCB18A5AC930031B954 /* DummyProjectForMergepbx */ = {
 			isa = PBXGroup;
 			children = (
+				060EFCFD18A5AEA10031B954 /* 漢字.txt */,
 				060EFCD418A5AC930031B954 /* AppDelegate.h */,
 				060EFCD518A5AC930031B954 /* AppDelegate.m */,
 				060EFCD718A5AC930031B954 /* Main_iPhone.storyboard */,
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				060EFCFE18A5AEA10031B954 /* 漢字.txt in Resources */,
 				060EFCDC18A5AC930031B954 /* Main_iPad.storyboard in Resources */,
 				060EFCE118A5AC930031B954 /* Images.xcassets in Resources */,
 				060EFCD918A5AC930031B954 /* Main_iPhone.storyboard in Resources */,
@@ -348,6 +352,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -381,6 +386,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
